@@ -1,4 +1,4 @@
-name: Generate Private Key & CSR Status
+name: Create Private Key & CSR Status
 
 on:
   schedule:
@@ -23,28 +23,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
-        run: python status/checkpvtcsr.py
-
-      - name: Update status badge
-        if: ${{ success() }}
-        run: echo "WORKFLOW_STATUS=online" >> $GITHUB_OUTPUT
-
-      - name: Update status badge (if failed)
-        if: ${{ failure() }}
-        run: echo "WORKFLOW_STATUS=offline" >> $GITHUB_OUTPUT
-
-      - name: Output status
-        run: echo "Current Status is $WORKFLOW_STATUS"
-
-      - name: Update README badge
-        uses: schneegans/dynamic-badges-action@v1.0.0
-        with:
-          auth: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          static_logo: python
-          static_message: ${{ env.WORKFLOW_STATUS }}
-          static_color: ${{ env.WORKFLOW_STATUS == 'online' && 'green' || 'red' }}
-          name: status
-          label: Status
-          directory: .
-          readme_path: README.md
+        run: python status\checkpvtcsr.py
