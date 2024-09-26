@@ -1,0 +1,23 @@
+name: Generate Private Key & CSR API
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every 24 hours at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  call_apis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Private key & CSR
+        run: |
+          EVENT_ID=$(curl -X POST https://raannakasturi-generate-pvt-csr.hf.space/call/privcsr -s -H "Content-Type: application/json" -d '{
+            "data": [
+              "thenayankasturi.eu.org, *.thenayankasturi.eu.org",
+              "admin@gmail.com",
+              "ecc",
+              "2048",
+              "SECP256R1"
+            ]}' | awk -F'"' '{ print $4 }')
+          curl -N https://raannakasturi-generate-pvt-csr.hf.space/call/privcsr/$EVENT_ID
+          
