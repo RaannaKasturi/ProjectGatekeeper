@@ -6,6 +6,7 @@ Project Gatekeeper is a comprehensive SSL toolkit designed to simplify SSL certi
 - [![Decode SSL Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/decodessl.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/decodessl.yml)
 - [![SSL Certificate & Private Key/CSR Matcher Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/matcher.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/matcher.yml)
 - [![Generate CNAMEs Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/generatecname.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/generatecname.yml)
+- [![Verify CNAMEs Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/main.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/main.yml)
 
 ## Key Features
 - Certificate Generation Tool: Easily create SSL certificates with customizable parameters, reducing complexity and saving time.
