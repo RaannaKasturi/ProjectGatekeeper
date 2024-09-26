@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Decode SSL Certificate
         run: |
-          EVENT_ID=$(curl -X POST https://raannakasturi-decode-ssl.hf.space/call/decode_ssl -s -H "Content-Type: application/json" -d '{
+          EVENT_ID=$(curl -X POST https://raannakasturi-decode-ssl.hf.space/call/decode -s -H "Content-Type: application/json" -d '{
             "data": [
               "-----BEGIN CERTIFICATE-----
             MIIEhzCCA2+gAwIBAgIQU0cFbXEflQ8OZCigs97geDANBgkqhkiG9w0BAQsFADA7
