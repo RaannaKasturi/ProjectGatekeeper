@@ -24,3 +24,24 @@ jobs:
 
       - name: Run script
         run: python status/checkpvtcsr.py
+
+      - name: Update status badge
+        uses: schneegans/dynamic-badges-action@v1.1.0
+        with:
+          auth: ${{ secrets.GIST_SECRET }}
+          gistID: <your-gist-id>
+          filename: online-status.json
+          label: Online Status
+          message: Running
+          color: green
+
+      - name: Update status badge (if failed)
+        uses: schneegans/dynamic-badges-action@v1.1.0
+        if: ${{ failure() }}
+        with:
+          auth: ${{ secrets.GIST_SECRET }}
+          gistID: <your-gist-id>
+          filename: online-status.json
+          label: Online Status
+          message: Failed
+          color: red
