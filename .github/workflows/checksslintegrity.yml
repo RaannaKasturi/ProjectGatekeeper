@@ -1,4 +1,4 @@
-name: Verify CNAMEs Status
+name: Check SSL Integrity Status
 
 on:
   schedule:
