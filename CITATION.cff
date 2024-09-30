@@ -1,0 +1,67 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Project Gatekeeper: The All-in-One SSL Toolkit'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Nayan
+    family-names: Kasturi
+    email: raannakasturi@gmail.com
+    orcid: 'https://orcid.org/0009-0005-4775-4197'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.13862006
+    description: 'Project Gatekeeper: All-in-One SSL Toolkit'
+repository-code: 'https://github.com/RaannaKasturi/ProjectGatekeeper'
+url: 'https://projectgatekeeper.vercel.app/'
+repository: 'https://github.com/RaannaKasturi/ProjectGatekeeper_website'
+abstract: >-
+  Project Gatekeeper is a research initiative aimed at
+  simplifying the process of obtaining SSL certificates,
+  particularly for websites hosted on free platforms that
+  lack built-in SSL support, email services, or full DNS
+  editing capabilities. The project addresses these
+  challenges by offering a toolkit that automates SSL
+  certificate requests using CNAME-based domain
+  verification. It leverages Python scripts with libraries
+  like `cryptography` and `dnspython`, alongside APIs such
+  as Cloudflare’s, to automate key steps in the SSL process,
+  including generating private keys, creating Certificate
+  Signing Requests (CSRs), managing DNS records, and
+  communicating with ACMEv2 servers like Let’s Encrypt and
+  others.
+  Key features of Project Gatekeeper include automating DNS
+  configuration, utilizing CNAME records for seamless domain
+  verification, and integrating Cloudflare’s API for DNS
+  management. The project eliminates the need for manual
+  intervention, enhances security, and simplifies SSL
+  certificate deployment, making it accessible for users
+  without advanced technical knowledge. It also offers
+  additional SSL-related tools, such as private key
+  generation, CSR decoding, and SSL certificate integrity
+  checks.
+  Project Gatekeeper ultimately promotes broader adoption of
+  SSL technology, ensuring websites are secure,
+  SEO-optimized, and compliant with best practices in
+  website security management. Future developments will
+  focus on adding custom CSR generation, SSL issuance with
+  custom CSR, and certificate revocation features.
+keywords:
+  - CNAME-based domain verification
+  - Python SSL toolkit
+  - ACMEv2 protocol
+  - Cloudflare DNS API
+  - Website data protection
+  - SSL certificate issuance
+  - DNS configuration automation
+  - Website encryption
+  - Web traffic security
+  - SSL security management
+license: AGPL-3.0-or-later
+commit: 9918694dcea89c604caa958d5cbcedd926385640
+version: v1.0
+date-released: '2024-09-30'
