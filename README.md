@@ -40,3 +40,8 @@ Project Gatekeeper is a comprehensive SSL toolkit designed to simplify SSL certi
 - Shoemaker, R. (2020b, February 1). RFC 8738: Automated Certificate Management Environment (ACME) IP Identifier Validation Extension. IETF Datatracker. https://datatracker.ietf.org/doc/html/rfc8738
 - Welcome to acme-python’s documentation! — acme-python 0 documentation. (n.d.). https://acme-python.readthedocs.io/en/latest/
 - Welcome to the Certbot documentation! — Certbot 2.11.0 documentation. (n.d.). https://eff-certbot.readthedocs.io/en/stable/index.html
+
+## Cite this Repository
+```
+Nayan Kasturi. (2024). Project Gatekeeper: All-in-One SSL Toolkit (v1.0). Zenodo. https://doi.org/10.5281/zenodo.13862006
+```
