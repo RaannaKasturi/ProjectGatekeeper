@@ -2,7 +2,7 @@ from gradio_client import Client
 
 client = Client("raannakasturi/orderSSL")
 result = client.predict(
-		i_domains="raannakasturi.eu.org",
+		i_domains="theraannakasturi.eu.org",
 		wildcard=True,
 		email="raannakasturi@gmail.com",
 		ca_server="Let's Encrypt (Testing)",
