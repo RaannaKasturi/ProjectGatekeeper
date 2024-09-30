@@ -24,6 +24,9 @@ Project Gatekeeper is a comprehensive SSL toolkit designed to simplify SSL certi
 - Backend: Hosted on Hugging Face Spaces, supporting up to 15 simultaneous requests.
 - Frontend: Deployed on Vercel, providing an accessible and responsive interface for managing SSL certificates.
 
+## DOI
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13862005.svg)](https://doi.org/10.5281/zenodo.13862005)
+
 ## Documentation & Resources
 - ACME Documentation: [RFC 8555](https://datatracker.ietf.org/doc/html/rfc8555)
 - Website: [Project Gatekeeper](https://projectgatekeeper.vercel.app/)
@@ -43,5 +46,5 @@ Project Gatekeeper is a comprehensive SSL toolkit designed to simplify SSL certi
 
 ## Cite this Repository
 ```
-Nayan Kasturi. (2024). Project Gatekeeper: All-in-One SSL Toolkit (v1.0). Zenodo. https://doi.org/10.5281/zenodo.13862006
+Nayan Kasturi. (2024). Project Gatekeeper: All-in-One SSL Toolkit (v1.0). Zenodo. https://doi.org/10.5281/zenodo.13862005
 ```
