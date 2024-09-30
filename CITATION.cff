@@ -14,7 +14,7 @@ authors:
     orcid: 'https://orcid.org/0009-0005-4775-4197'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.13862006
+    value: 10.5281/zenodo.13862005
     description: 'Project Gatekeeper: All-in-One SSL Toolkit'
 repository-code: 'https://github.com/RaannaKasturi/ProjectGatekeeper'
 url: 'https://projectgatekeeper.vercel.app/'
