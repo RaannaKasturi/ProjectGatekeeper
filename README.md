@@ -2,7 +2,7 @@
 Project Gatekeeper is a comprehensive SSL toolkit designed to simplify SSL certificate management and enhance web security. The project provides a user-friendly interface and automates key processes like certificate generation, renewal, and monitoring, making SSL management more accessible to both novice users and experienced administrators. By integrating essential tools and leveraging modern technologies, Project Gatekeeper ensures SSL certificates are up-to-date and properly configured, contributing to a safer online environment.
 
 ## Backend Status
-- [![Generate Private Key & CSR Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/pvtcsr.yml/badge.svg?event=check_run)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/pvtcsr.yml)
+- [![Generate Private Key & CSR Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/pvtcsr.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/pvtcsr.yml)
 - [![Decode SSL Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/decodessl.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/decodessl.yml)
 - [![SSL Certificate & Private Key/CSR Matcher Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/matcher.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/matcher.yml)
 - [![Generate CNAMEs Status](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/generatecname.yml/badge.svg)](https://github.com/RaannaKasturi/ProjectGatekeeper/actions/workflows/generatecname.yml)
